@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+\linespread{1.25}
+
+% Formatting
+\usepackage{subfiles} % Allows dividing the document into subfiles
+\usepackage{caption} % Enhanced control over figure and table captions
+\usepackage{parskip} % Adds space between paragraphs
+\usepackage{placeins} % for \FloatBarrier
+
+% Graphics and Figures
+\usepackage{graphicx} % Inclusion and manipulation of images
+\usepackage{float} % Additional control over float environments (figures, tables)
+\usepackage{pgfplots} % Creation of plots and diagrams
+\pgfplotsset{compat=1.18}
+
+% Mathematics
+\usepackage{siunitx} % Typesetting and formatting physical quantities and units
+\usepackage{amsmath} % Enhanced support for mathematical equations and symbols
+
+% Fonts and Character Encoding
+\usepackage[T1]{fontenc} % Font encoding
+\usepackage[utf8]{inputenc} % Input encoding (UTF-8)
+\usepackage[scale=0.96]{XCharter} % Alternative font option (XCharter)
+\usepackage[xcharter]{newtxmath} % Math font to match XCharter font
+
+% Margins
+\usepackage[
+	top=4cm,
+	bottom=4cm,
+	left=4cm,
+	right=4cm,
+]{geometry} % Customization of page margins
+
+% *** %
+
+\title{\{COURSE CODE\} \\ EXPERIMENT \{NUMBER\}: \\ \{EXPERIMENT NAME\}}
+\date{Month day, year}
+\author{}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+    \begin{tabular}{lr}
+        Bench 5: & Name \textsc{Surname} - 00000000 \\
+                 & Name \textsc{Surname} - 00000000 \\
+                 & Name \textsc{Surname} - 00000000 \\
+                 & Name \textsc{Surname} - 00000000 \\
+                 & Name \textsc{Surname} - 00000000 \\
+        \vspace{7pt}
+        Assistant: & Name \textsc{Surname}
+    \end{tabular}
+\end{center}
+\vspace{15pt}
+
+
+\subfile{sections/1_purpose.tex}
+\subfile{sections/2_introduction.tex}
+\subfile{sections/3_equipments.tex}
+\subfile{sections/4_procedure.tex}
+\subfile{sections/5_experimental_data.tex}
+\subfile{sections/6_answers_to_questions.tex}
+\subfile{sections/7_conclusion.tex}
+\newpage
+\subfile{sections/8_references.tex}
+
+\end{document}
