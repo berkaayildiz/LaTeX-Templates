@@ -35,6 +35,16 @@ Feel free to modify the templates to fit your preferences and specific document 
 
 ## Templates
 
+### Blank Document Template
+
+The Blank Document Template is a simple and clean LaTeX template that can be used for any type of document. You can use it for drafting, quick notes or homeworks.
+
+<p align="center">
+    <img src="screenshots/blank_document_screenshot.png" alt="Blank Document" width="50%" style="margin: 100px;">
+</p>
+
+It comes with necessary packages to get you started with writing your document.
+
 ### Physics Lab Report Template
 
 The Physics Lab Report Template is designed specifically for writing laboratory reports in the field of physics. It provides a structured layout that includes all the essential sections typically found in a physics lab report, such as an abstract, introduction, procedure, experimental data, answers to questions, and conclusion.
